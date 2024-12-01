@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551CBC6D2CFC5472003543CC /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551CBC6C2CFC5461003543CC /* Date+Extensions.swift */; };
 		553DFBC72CD79FF900DC3DAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553DFBC62CD79FF900DC3DAF /* AppDelegate.swift */; };
 		553DFBC92CD79FF900DC3DAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553DFBC82CD79FF900DC3DAF /* SceneDelegate.swift */; };
 		553DFBCB2CD79FF900DC3DAF /* ImagesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553DFBCA2CD79FF900DC3DAF /* ImagesListViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		551CBC6C2CFC5461003543CC /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		553DFBC32CD79FF900DC3DAF /* imageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		553DFBC62CD79FF900DC3DAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		553DFBC82CD79FF900DC3DAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		551CBC6B2CFC543B003543CC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				551CBC6C2CFC5461003543CC /* Date+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		553841A82CF9F0D100646B64 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		553DFBC52CD79FF900DC3DAF /* imageFeed */ = {
 			isa = PBXGroup;
 			children = (
+				551CBC6B2CFC543B003543CC /* Helpers */,
 				553841A82CF9F0D100646B64 /* Resources */,
 				553DFBC62CD79FF900DC3DAF /* AppDelegate.swift */,
 				553DFBC82CD79FF900DC3DAF /* SceneDelegate.swift */,
@@ -157,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551CBC6D2CFC5472003543CC /* Date+Extensions.swift in Sources */,
 				553DFBCB2CD79FF900DC3DAF /* ImagesListViewController.swift in Sources */,
 				5556144B2CFA021A00A3B47C /* ImagesListCell.swift in Sources */,
 				553DFBC72CD79FF900DC3DAF /* AppDelegate.swift in Sources */,
