@@ -15,12 +15,12 @@
 		553DFBD02CD79FFA00DC3DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553DFBCF2CD79FFA00DC3DAF /* Assets.xcassets */; };
 		553DFBD32CD79FFA00DC3DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553DFBD12CD79FFA00DC3DAF /* LaunchScreen.storyboard */; };
 		55498E082CFDDCD800798FF2 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55498E072CFDDCC900798FF2 /* UIColor+Extensions.swift */; };
+		55498E0B2CFDEB2200798FF2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55498E0A2CFDEB1F00798FF2 /* ProfileViewController.swift */; };
 		5556144B2CFA021A00A3B47C /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556144A2CFA021A00A3B47C /* ImagesListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		551CBC6C2CFC5461003543CC /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
-		553DFBC32CD79FF900DC3DAF /* imageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		553DFBC62CD79FF900DC3DAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		553DFBC82CD79FF900DC3DAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		553DFBCA2CD79FF900DC3DAF /* ImagesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +29,8 @@
 		553DFBD22CD79FFA00DC3DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		553DFBD42CD79FFA00DC3DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55498E072CFDDCC900798FF2 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		55498E0A2CFDEB1F00798FF2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		55498E0D2CFE153100798FF2 /* imageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = imageFeed.app; path = "/Users/prokofevg/dev/projects/imageFeed/build/Debug-iphoneos/imageFeed.app"; sourceTree = "<absolute>"; };
 		5556144A2CFA021A00A3B47C /* ImagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,16 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				553DFBC52CD79FF900DC3DAF /* imageFeed */,
-				553DFBC42CD79FF900DC3DAF /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		553DFBC42CD79FF900DC3DAF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				553DFBC32CD79FF900DC3DAF /* imageFeed.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		553DFBC52CD79FF900DC3DAF /* imageFeed */ = {
@@ -87,6 +80,7 @@
 				553DFBC82CD79FF900DC3DAF /* SceneDelegate.swift */,
 				5556144C2CFA029800A3B47C /* ImagesList */,
 				553DFBCC2CD79FF900DC3DAF /* Main.storyboard */,
+				55498E0A2CFDEB1F00798FF2 /* ProfileViewController.swift */,
 			);
 			path = imageFeed;
 			sourceTree = "<group>";
@@ -117,7 +111,7 @@
 			);
 			name = imageFeed;
 			productName = imageFeed;
-			productReference = 553DFBC32CD79FF900DC3DAF /* imageFeed.app */;
+			productReference = 55498E0D2CFE153100798FF2 /* imageFeed.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +138,7 @@
 				Base,
 			);
 			mainGroup = 553DFBBA2CD79FF900DC3DAF;
-			productRefGroup = 553DFBC42CD79FF900DC3DAF /* Products */;
+			productRefGroup = 553DFBBA2CD79FF900DC3DAF;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -175,6 +169,7 @@
 				55498E082CFDDCD800798FF2 /* UIColor+Extensions.swift in Sources */,
 				553DFBCB2CD79FF900DC3DAF /* ImagesListViewController.swift in Sources */,
 				5556144B2CFA021A00A3B47C /* ImagesListCell.swift in Sources */,
+				55498E0B2CFDEB2200798FF2 /* ProfileViewController.swift in Sources */,
 				553DFBC72CD79FF900DC3DAF /* AppDelegate.swift in Sources */,
 				553DFBC92CD79FF900DC3DAF /* SceneDelegate.swift in Sources */,
 			);
