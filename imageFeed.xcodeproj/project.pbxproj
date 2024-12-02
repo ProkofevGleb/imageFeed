@@ -14,6 +14,7 @@
 		553DFBCE2CD79FF900DC3DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553DFBCC2CD79FF900DC3DAF /* Main.storyboard */; };
 		553DFBD02CD79FFA00DC3DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 553DFBCF2CD79FFA00DC3DAF /* Assets.xcassets */; };
 		553DFBD32CD79FFA00DC3DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553DFBD12CD79FFA00DC3DAF /* LaunchScreen.storyboard */; };
+		55498E082CFDDCD800798FF2 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55498E072CFDDCC900798FF2 /* UIColor+Extensions.swift */; };
 		5556144B2CFA021A00A3B47C /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556144A2CFA021A00A3B47C /* ImagesListCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		553DFBCF2CD79FFA00DC3DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		553DFBD22CD79FFA00DC3DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		553DFBD42CD79FFA00DC3DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55498E072CFDDCC900798FF2 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		5556144A2CFA021A00A3B47C /* ImagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +46,7 @@
 		551CBC6B2CFC543B003543CC /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				55498E072CFDDCC900798FF2 /* UIColor+Extensions.swift */,
 				551CBC6C2CFC5461003543CC /* Date+Extensions.swift */,
 			);
 			path = Helpers;
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				551CBC6D2CFC5472003543CC /* Date+Extensions.swift in Sources */,
+				55498E082CFDDCD800798FF2 /* UIColor+Extensions.swift in Sources */,
 				553DFBCB2CD79FF900DC3DAF /* ImagesListViewController.swift in Sources */,
 				5556144B2CFA021A00A3B47C /* ImagesListCell.swift in Sources */,
 				553DFBC72CD79FF900DC3DAF /* AppDelegate.swift in Sources */,

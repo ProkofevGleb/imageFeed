@@ -29,7 +29,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lmR-K3-hTT" userLabel="Cell View">
-                                                    <rect key="frame" x="0.0" y="0.0" width="402" height="266"/>
+                                                    <rect key="frame" x="0.0" y="4" width="402" height="258"/>
                                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -60,10 +60,10 @@
                                                 <constraint firstItem="cqT-ic-6Ig" firstAttribute="top" secondItem="B96-iS-8Zo" secondAttribute="top" id="AZw-um-1LA"/>
                                                 <constraint firstAttribute="trailing" secondItem="lmR-K3-hTT" secondAttribute="trailing" id="Gvr-3j-M6W"/>
                                                 <constraint firstItem="lmR-K3-hTT" firstAttribute="leading" secondItem="B96-iS-8Zo" secondAttribute="leading" id="Jzz-rT-Hw5"/>
+                                                <constraint firstAttribute="bottom" secondItem="lmR-K3-hTT" secondAttribute="bottom" constant="4" id="Ug5-y5-CZ8"/>
                                                 <constraint firstAttribute="trailing" secondItem="ERx-8U-rg2" secondAttribute="trailing" constant="8" id="eij-YZ-13Q"/>
                                                 <constraint firstAttribute="bottom" secondItem="ERx-8U-rg2" secondAttribute="bottom" constant="8" id="hhR-bh-GeY"/>
-                                                <constraint firstAttribute="bottom" secondItem="lmR-K3-hTT" secondAttribute="bottom" id="rxx-cY-0Xp"/>
-                                                <constraint firstItem="lmR-K3-hTT" firstAttribute="top" secondItem="B96-iS-8Zo" secondAttribute="top" id="s1z-nb-V3u"/>
+                                                <constraint firstItem="lmR-K3-hTT" firstAttribute="top" secondItem="B96-iS-8Zo" secondAttribute="top" constant="4" id="s1z-nb-V3u"/>
                                                 <constraint firstAttribute="trailing" secondItem="cqT-ic-6Ig" secondAttribute="trailing" id="wal-Kj-yuz"/>
                                             </constraints>
                                         </tableViewCellContentView>
