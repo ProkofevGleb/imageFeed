@@ -1,6 +1,6 @@
 import UIKit
 
-class ImagesListViewController: UIViewController {
+final class ImagesListViewController: UIViewController {
     @IBOutlet private var tableView: UITableView!
     
     private let photosName: [String] = Array(0..<20).map{ "\($0)" }
@@ -40,6 +40,7 @@ extension ImagesListViewController {
             return
         }
         
+        cell.selectionStyle = .none
         cell.cellView.image = image
         cell.dateLabel.text = currentDate
         
