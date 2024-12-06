@@ -16,6 +16,7 @@
 		553DFBD32CD79FFA00DC3DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553DFBD12CD79FFA00DC3DAF /* LaunchScreen.storyboard */; };
 		55498E082CFDDCD800798FF2 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55498E072CFDDCC900798FF2 /* UIColor+Extensions.swift */; };
 		55498E0B2CFDEB2200798FF2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55498E0A2CFDEB1F00798FF2 /* ProfileViewController.swift */; };
+		55498E102D004A3800798FF2 /* SingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55498E0F2D004A3800798FF2 /* SingleImageViewController.swift */; };
 		5556144B2CFA021A00A3B47C /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5556144A2CFA021A00A3B47C /* ImagesListCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +31,8 @@
 		553DFBD42CD79FFA00DC3DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55498E072CFDDCC900798FF2 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		55498E0A2CFDEB1F00798FF2 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		55498E0D2CFE153100798FF2 /* imageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = imageFeed.app; path = "/Users/prokofevg/dev/projects/imageFeed/build/Debug-iphoneos/imageFeed.app"; sourceTree = "<absolute>"; };
+		55498E0E2CFEEFE400798FF2 /* imageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = imageFeed.app; path = "/Users/prokofevg/dev/projects/imageFeed/build/Debug-iphoneos/imageFeed.app"; sourceTree = "<absolute>"; };
+		55498E0F2D004A3800798FF2 /* SingleImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageViewController.swift; sourceTree = "<group>"; };
 		5556144A2CFA021A00A3B47C /* ImagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				5556144C2CFA029800A3B47C /* ImagesList */,
 				553DFBCC2CD79FF900DC3DAF /* Main.storyboard */,
 				55498E0A2CFDEB1F00798FF2 /* ProfileViewController.swift */,
+				55498E0F2D004A3800798FF2 /* SingleImageViewController.swift */,
 			);
 			path = imageFeed;
 			sourceTree = "<group>";
@@ -111,7 +114,7 @@
 			);
 			name = imageFeed;
 			productName = imageFeed;
-			productReference = 55498E0D2CFE153100798FF2 /* imageFeed.app */;
+			productReference = 55498E0E2CFEEFE400798FF2 /* imageFeed.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,6 +174,7 @@
 				5556144B2CFA021A00A3B47C /* ImagesListCell.swift in Sources */,
 				55498E0B2CFDEB2200798FF2 /* ProfileViewController.swift in Sources */,
 				553DFBC72CD79FF900DC3DAF /* AppDelegate.swift in Sources */,
+				55498E102D004A3800798FF2 /* SingleImageViewController.swift in Sources */,
 				553DFBC92CD79FF900DC3DAF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
